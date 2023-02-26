@@ -134,7 +134,7 @@ section {
     }
     
     .menu {
-        padding: 25px;
+        padding: 25.5px;
     }
   
     img {
@@ -179,7 +179,7 @@ section {
         transition: 0.2s;
     }
     section img:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     
     }
     h2::after {
