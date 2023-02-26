@@ -1,0 +1,194 @@
+*, 
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-size: 18px;
+    color: #756158;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+a {
+    color: #756158;
+}
+
+h1, h2, a {
+    text-transform: uppercase;
+    
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #578080;
+    font-weight: bold;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+.hlavicka {
+    border-bottom: dashed 0.5px grey;
+    padding: 10px;
+}
+
+.pozadi {
+    background-image: url(fotky/IMG_8698-min.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+}
+
+
+.menu li {
+    display: inline-block;
+}
+
+.menu  {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #57808054;
+}
+
+
+li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+}
+
+a:hover {
+    background-color:#57808070;
+    
+}
+
+section {
+    padding: 20px 15%;
+    border-bottom: 0.5px dashed #57808054; 
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.paticka {
+    height: 130px;
+    background-color: #578080;
+}
+
+.paticka img {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-family: 'Figtree',sans-serif;
+    
+}
+.paticka a {
+    color: white;
+}
+
+.paticka {
+    display: flex;
+    align-items: center;
+}
+
+.paticka p {
+    padding: 20px;
+}
+
+section {
+    padding-bottom: 40px;
+   
+}
+
+/* Tabletová verze */
+
+@media (min-width: 501px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    li a {
+        font-size: 15px;
+        padding: 30px;
+        font-weight: 400;
+    }
+    
+    .menu {
+        padding: 25px;
+    }
+  
+    img {
+        width: 32%;
+    }
+
+    h2::after {
+    content: " ";
+    display: block;
+    background-color: #578080;
+    width: 120px;
+    height: 4px;
+    margin-left: -20px;
+}   
+    }
+    
+
+
+ /*Desktop verze*/
+
+ @media (min-width: 1001px) {
+    .pozadi {
+        height: 800px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    
+    li a {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .menu {
+        padding: 27px;
+    }
+    
+    section img {
+        transition: 0.2s;
+    }
+    section img:hover {
+        transform: scale(1.2);
+    
+    }
+    h2::after {
+        content: " ";
+        display: block;
+        background-color: #578080;
+        width: 150px;
+        height: 4px;
+        margin-left: -60px;
+    }
+ }
+    
